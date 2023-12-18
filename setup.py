@@ -1,12 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="PySMILESutils",
+    name="syntheseus-PySMILESutils",
     version="1.1.0",
-    description="Utilities for working with SMILES based encodings of molecules for deep learning (PyTorch oriented). ",
-    author="Molecular AI group",
-    author_email="esben.bjerrum@astrazeneca.com",
+    description="Fork of PySMILESutils for use in the syntheseus library",
     license="Apache 2.0",
     packages=find_packages(exclude=("tests",)),
-    url="https://github.com/MolecularAI/pysmilesutils",
+    url="https://github.com/kmaziarz/pysmilesutils",
 )
